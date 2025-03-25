@@ -3,10 +3,9 @@
   "type": "module",
   "version": "1.2.0",
   "description": "A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.",
-  "author": "Kieran Wong <kieranwme@gmail.com> (https://github.com/kieranwv/)",
+  "author": "",
   "license": "MIT",
   "keywords": [
-    "kieranwong9865",
     "astro-theme-vitesse",
     "astro",
     "blog",
@@ -14,7 +13,7 @@
     "template"
   ],
   "engines": {
-    "node": ">=v18.17.1 || >=v20.3.0 || >=21"
+    "node": ">=v18.17.1"
   },
   "scripts": {
     "prepare": "simple-git-hooks",
@@ -26,30 +25,31 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.0.5",
+    "@astrojs/mdx": "^4.2.1",
     "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/vue": "^5.0.4",
-    "@unocss/reset": "^65.4.0",
-    "astro": "^5.1.5",
+    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/vue": "^5.0.7",
+    "@deck.gl/core": "^9.1.8",
+    "@deck.gl/layers": "^9.1.8",
+    "@unocss/reset": "^65.5.0",
+    "astro": "^5.5.4",
     "nprogress": "^0.2.0",
-    "unocss": "^65.4.0",
+    "unocss": "^65.5.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.14.0",
-    "@iconify/json": "^2.2.294",
-    "@types/lodash-es": "^4.17.12",
+    "@antfu/eslint-config": "^3.16.0",
+    "@iconify/json": "^2.2.320",
     "@types/nprogress": "^0.2.3",
-    "@vueuse/core": "^12.4.0",
-    "bumpp": "^9.10.0",
-    "eslint": "^9.18.0",
+    "@vueuse/core": "^13.0.0",
+    "bumpp": "^10.1.0",
+    "es-toolkit": "^1.33.0",
+    "eslint": "^9.23.0",
     "eslint-plugin-astro": "^1.3.1",
     "eslint-plugin-format": "^1.0.1",
-    "lint-staged": "^15.3.0",
-    "lodash-es": "^4.17.21",
+    "lint-staged": "^15.5.0",
     "prettier-plugin-astro": "^0.14.1",
-    "simple-git-hooks": "^2.11.1"
+    "simple-git-hooks": "^2.12.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
