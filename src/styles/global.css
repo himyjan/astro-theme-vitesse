@@ -1,3 +1,6 @@
+#deckgl-overlay {
+}
+
 html.dark .astro-code,
 html.dark .astro-code span {
   color: var(--shiki-dark) !important;
